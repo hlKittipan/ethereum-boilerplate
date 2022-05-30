@@ -70,7 +70,8 @@ const App = ({ isServerInfo }) => {
     <Layout style={{ height: "100vh", overflow: "auto" }}>
       <Router>
         <Header style={styles.header}>
-          <Logo />
+          <NativeBalance />
+          <Account />
           <MenuItems />
           <div style={styles.headerRight}>
             <Chains />
@@ -80,8 +81,6 @@ const App = ({ isServerInfo }) => {
               image="https://cloudflare-ipfs.com/ipfs/QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg/"
               size="40px"
             />
-            <NativeBalance />
-            <Account />
           </div>
         </Header>
 
